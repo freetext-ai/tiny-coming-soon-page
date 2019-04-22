@@ -5,7 +5,100 @@
   <br/><br/>
   <b>Track detailed progress of the entire project <a href="http://distant-gradient.github.io/blog">here</a></b>
   <br/><br/>
-  <b>Samples</b><br/>
+  
+
+  
+ <b>Samples (Tacotron + WaveRNN)</br><br/>
+  Analysis:<br/>
+  1. Although coarseness is gone, some samples are not *steady* (ie. wavering sound) TODO: Train more?<br/>
+  2. Still has trouble pronouncing out of vocabulary words. (eg. last 3 samples) TODO: expriment with additional training data perhaps in a multi-speaker or transfer learned setting.<br/>
+  
+  
+<br/>
+<br/>
+वाराणसी के अस्सी घाट पहुंचीं कांग्रेस महासचिव प्रियंका गांधी ने जय हिंद के नारे लगवाए
+<br/>
+<audio controls>
+  <source src="samples_tacotron-148k-wavernn-gta-1386k_1_batchedTrue_148k.wav">
+</audio> 
+<br/>
+<br/>
+माना जा रहा है कि इस दौरे पर प्रियंका राष्ट्रवाद और धर्म को साथ में साधने की कोशिश कर रही हैं।
+<br/>
+<audio controls>
+    <source src="samples_tacotron-148k-wavernn-gta-1386k_2_batchedTrue_148k.wav">
+</audio> 
+<br/>
+<br/>
+ पटेल ने कहा, 'आप आरक्षण की बात कैसे कर सकते हैं जबकि आपको दस प्रतिशत आरक्षण लाभ दिया जा चुका है<br/>
+<audio controls>
+    <source src="samples_tacotron-148k-wavernn-gta-1386k_4_batchedTrue_148k.wav">
+</audio> 
+<br/>
+<br/>
+अब मेरा ध्यान किसानों और युवाओं से जुड़े मुद्दों को उठाने पर है<br/>
+<audio controls>
+    <source src="samples_tacotron-148k-wavernn-gta-1386k_5_batchedTrue_148k.wav">
+</audio>
+<br/>
+<br/>
+बिहार में सभी 7 चरणों में लोकसभा चुनाव का मतदान होगा<br/>
+<audio controls>
+    <source src="samples_tacotron-148k-wavernn-gta-1386k_6_batchedTrue_148k.wav">
+</audio> 
+<br/>
+<br/>
+सलमान इंदौर नगर निगम के लिए कांग्रेस के महापौर के उम्मीदवार पंकज संघवी के लिए भी 2009 में चुनाव प्रचार कर चुके हैं
+<br/> 
+
+<audio controls>
+    <source src="samples_tacotron-148k-wavernn-gta-1386k_7_batchedTrue_148k.wav">
+</audio> 
+
+<br/>
+<br/>
+लोकसभा चुनाव से पहले बीजेपी के छत्तीसगढ़ सांसदों के लिए एक बुरी खबर है<br/> 
+
+<audio controls>
+    <source src="samples_tacotron-148k-wavernn-gta-1386k_8_batchedTrue_148k.wav">
+</audio> 
+
+
+<br/>
+<br/>
+शो में निक पर फेंकी गई ब्रा को प्रियंका ने उठाया, लिखा- पति तक यह मेसेज पहुंचाया<br/> 
+
+<audio controls>
+    <source src="samples_tacotron-148k-wavernn-gta-1386k_26_batchedTrue_148k.wav">
+</audio> 
+
+  
+<br/>
+<br/>
+ब्लैक' में रानी का काम देखकर लगा यह कौनसी बड़ी बात, मैं भी कर सकती हूं: कंगना<br/> 
+
+<audio controls>
+    <source src="samples_tacotron-148k-wavernn-gta-1386k_27_batchedTrue_148k.wav">
+</audio> 
+
+  
+    
+<br/>
+<br/>
+ऐक्ट्रेस एमी जैक्सन ने बताया- बनने वाली हूं मां, मंगेतर के साथ शेयर की तस्वीर<br/> 
+
+<audio controls>
+    <source src="samples_tacotron-148k-wavernn-gta-1386k_28_batchedTrue_148k.wav">
+</audio> 
+
+  
+  
+  
+  
+  
+  
+  
+  <b>Samples from previous iteration (DCTTS+SuperRes+GriffinLim)</b><br/>
   Analysis:<br/>
   1. Voice samples sound "coarse" likely due to incorrect phase shift. TODO: experiment with vocoders - WaveRNN<br/>
   2. Lack of clarity and trouble prouncing out of vocabulary words. TODO: expriment with additional training data perhaps in a multi-speaker or transfer learned setting.<br/>
